@@ -16,8 +16,10 @@ margin-block: auto;
 
 h1{
     color: blue;
-    font-size: 100px;
-    margin-block: auto;    
+    font-size: 85px;
+    text-align:left;
+    margin-block: auto;
+    margin-left: 20%;
 }
 
 img{
