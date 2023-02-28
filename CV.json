@@ -40,9 +40,53 @@
             "datos_carrera":
             {
                 "resumen":"Programador web con más de 5 años de trayectoria desarrolladas en eCommerce. A lo largo de estos años, he tenido el privilegio de formar parte en la creación webs como geekletics.es y peternappi.es, las cuales han cultivado un gran éxito, tanto en tráfico como en conversaciones.",
-                "experiencia":[
+                "experiencia":[{
+                    "fecha":[
+                        "Junio 2017 - Marzo 2020",
+                        "Enero 2015 - Mayo 2016"
+                    ]
+                },{
+                    "trabajo":[
+                        "Desarrollador web eCommerce",
+                        "Desarrollador Sharepoint"
+                    ]},{
+                    "empresa":[
+                        "Hays Response, Zaragoza",
+                        "X25 Informática, Madrid"
+                        ]},{
+                    "responsabilidades":[[
+                        "Maquetación mediante CSS.",
+                        "Optimización de SEO on page.",
+                        "Programación con JavaScript.",
+                        "Diseño, desarrollo e implementación de interfaces BBDD."
+                    ],
+                    [
+                        "Elaboración de requisitos funcionales y documentos de especificaciones técnicas.",
+                        "Desarrollo de aplicaciones web basadas en tecnologías de Sharepoint Framework.",
+                        "Creación de componenetes para transferir datos seguros entre webs y sistemas internos.",
+                        "Elaboración de diseños gráficos con Adobe Photoshop e Illustrator."
+                    ]
 
-                                ]
+                    ]}
+                            ],
+                "formacion":[{
+                    "fecha":[
+                        "2015",
+                        "2013"
+                    ]},{
+                    "carrera":[
+                        "Grado Superior en Desarrollo de Aplicaciones Web",
+                        "Bachillerato de Ciencias"
+
+                    ]},{
+                    "instituto":[
+                        "IES Miguel Catalán, Zaragoza",
+                        "IES Luis Buñel"
+                            ]
+                }
+
+
+                ]
             }
 
 }
