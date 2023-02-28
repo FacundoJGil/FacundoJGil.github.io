@@ -1,14 +1,25 @@
+*{
+
+}
+
 #contenido{
 margin-left: auto;
-
+background-color: white;
+justify-content:space-around;
+text-align: left;
+display: block;
+float:right;
+width: 78%;
+margin-block: auto;
 }
 
 
 h1{
     color: blue;
-    text-align: center;
-
+    font-size: 100px;
+    margin-block: auto;    
 }
+
 img{
     border-radius: 50%;
     height: 25%; 
@@ -21,12 +32,13 @@ img{
 
 #info_personal{
 background-color: lightblue;
-color: black;
+border: solid 10px lightblue;
+color: black; 
 left: 0;
 font: serif;
-margin: color ;
-border: solid 10px lightblue;
+font-weight: bold;
 height: 100%;
+width: 20%;
 text-align: left;
 margin-block-end: auto;
 position: absolute;
