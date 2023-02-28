@@ -26,7 +26,6 @@ async function foo() {
         document.getElementById("info_personal_ul1").insertAdjacentHTML('beforeend',`<li class="info_personal">${data.datos_personales.mail}</li>`);}
             );
 
-//collection[x].insertAdjacentHTML('beforebegin',`<p  class="info_personal linea"></p>`
             function idiomas(){
                 document.getElementById("info_carrera_ul1").innerHTML="Idiomas";
                 document.getElementById("info_carrera_ul2").innerHTML="";
