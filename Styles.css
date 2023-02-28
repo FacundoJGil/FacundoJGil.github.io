@@ -1,5 +1,23 @@
+*{
+column-count: auto;
+column-width: auto;
+
+}
+
+
 h1{
     color: blue;
+    text-align: center;
 
+}
+
+div{
+background-color: grey;
+color: white;
+
+height: 100%;
+text-align: left;
+margin-block-end: auto + 10px;
+position: absolute;
 
 }

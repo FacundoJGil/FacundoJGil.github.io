@@ -1,9 +1,9 @@
 {
     "datos_personales":
         {
-            
         "nombre":"Juilian",
         "apellido":"Pizini",
+        "mail":"Juilian.Pizini@ejemplo.com.ar",
         "nacimiento":"Jun 11, 1993",
         "documento":"39568488",
         "telefono":"(011) 1565212365",
@@ -13,9 +13,9 @@
         "provincia":"Buenos Aires",
         "pais":"Argentina",
         "imagenes":{
-                    "large":"https://randomuser.me/api/portraits/men/58.jpg",
-                    "medium":"https://randomuser.me/api/portraits/med/men/58.jpg",
-                    "thumbnail":"https://randomuser.me/api/portraits/thumb/men/58.jpg"
+                    "larga":"https://randomuser.me/api/portraits/men/58.jpg",
+                    "mediana":"https://randomuser.me/api/portraits/med/men/58.jpg",
+                    "miniatura":"https://randomuser.me/api/portraits/thumb/men/58.jpg"
                 },
     "info2":{
                     }
