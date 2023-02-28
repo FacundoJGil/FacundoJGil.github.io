@@ -53,12 +53,12 @@ async function foo() {
 
 
 
-        
+
 
         document.getElementById("nombre").insertAdjacentHTML('afterend',`<p  class="info_personal linea_texto">Resumen Profesional</p>`);
 
         foo().then(data => {
-            document.getElementById("info_carrera_ul1").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.resumen}</p>`);}
+            document.getElementById("info_carrera_ul1").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.resumen}</p>`);}
             );
 
             document.getElementById("info_carrera_ul1").insertAdjacentHTML('afterend',`<p  class="info_personal linea_texto">Experiencias</p>`);
@@ -67,10 +67,11 @@ async function foo() {
             foo().then(data => {
                 const length1  = (data.datos_carrera.experiencia[0].fecha).length;
             for (let x = 0;x <= length1-1 ;x++) {
-                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.experiencia[0].fecha[x]}</p>`)
-                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.experiencia[1].trabajo[x]} ${data.datos_carrera.experiencia[2].empresa[x]}</p>`)
+                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.experiencia[0].fecha[x]}</p>`)
+                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.experiencia[1].trabajo[x]} ${data.datos_carrera.experiencia[2].empresa[x]}</p>`)
                 for(let y = 0;y <= ((data.datos_carrera.experiencia[3].responsabilidades[x]).length)-1 ;y++){
-                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<li class="info_personal">${data.datos_carrera.experiencia[3].responsabilidades[x][y]}</li>`)}
+                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<li class="info_carrera_li">${data.datos_carrera.experiencia[3].responsabilidades[x][y]}</li>`)}
+                document.getElementById("info_carrera_ul2").insertAdjacentHTML('beforeend',`<p class="tabulador"></p>`)
                             }});  
 
      
@@ -79,13 +80,14 @@ async function foo() {
             foo().then(data => {
                 const length  = (data.datos_carrera.formacion[0].fecha).length;
             for (let x = 0;x <= length-1 ;x++) {
-                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.formacion[0].fecha[x]}</p>`)
-                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.formacion[1].carrera[x]}</p>`)
-                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_personal">${data.datos_carrera.formacion[2].instituto[x]}</p>`)
+                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.formacion[0].fecha[x]}</p>`)
+                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.formacion[1].carrera[x]}</p>`)
+                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="info_carrera">${data.datos_carrera.formacion[2].instituto[x]}</p>`)
+                document.getElementById("info_carrera_ul3").insertAdjacentHTML('beforeend',`<p class="tabulador"></p>`)
                             }});
 
-                            const collection = document.getElementsByClassName("linea_texto");
-                        for (let x = 0;x <= collection.length-1 ;x++) {
-                            collection[x].insertAdjacentHTML('beforebegin',`<p  class="info_personal linea"></p>`)
-                            }
+            const collection = document.getElementsByClassName("linea_texto");
+                for (let x = 0;x <= collection.length-1 ;x++) {
+                    collection[x].insertAdjacentHTML('beforebegin',`<p  class="info_personal linea"></p>`)
+                    }
   
