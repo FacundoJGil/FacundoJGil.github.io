@@ -7,21 +7,25 @@ async function foo() {
     foo().then(data => {
     document.getElementById("nombre").innerHTML=data.datos_personales.nombre +" "+ data.datos_personales.apellido;
   });
+  
+  
     foo().then(data => {
-    document.getElementById("nacimiento").innerHTML=data.datos_personales.nacimiento;
-  });
-
+    document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<img src="${data.datos_personales.imagenes.larga}" alt="texto que aparece si no carga la imagen"></img>`);}
+    );
     foo().then(data => {
-    document.getElementById("nacimiento").insertAdjacentHTML('beforeend',`<p>D.N.I ${data.datos_personales.documento}</p>`);}
+    document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.nacimiento}</p>`);}
+    );
+    foo().then(data => {
+    document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<p>D.N.I ${data.datos_personales.documento}</p>`);}
     );
     foo().then(data=>{
-        document.getElementById("nacimiento").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.calle}, ${data.datos_personales.localidad}, ${data.datos_personales.provincia}, ${data.datos_personales.pais}</p>`);}
+        document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.calle}, ${data.datos_personales.localidad}, ${data.datos_personales.provincia}, ${data.datos_personales.pais}</p>`);}
     );
     foo().then(data => {
-        document.getElementById("nacimiento").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.telefono}</p>`);}
+        document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.telefono}</p>`);}
         );
     foo().then(data => {
-        document.getElementById("nacimiento").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.mail}</p>`);}
+        document.getElementById("info_personal").insertAdjacentHTML('beforeend',`<p>${data.datos_personales.mail}</p>`);}
             );
  
 
