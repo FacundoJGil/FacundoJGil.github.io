@@ -15,11 +15,35 @@
                     "larga":"https://randomuser.me/api/portraits/men/58.jpg",
                     "mediana":"https://randomuser.me/api/portraits/med/men/58.jpg",
                     "miniatura":"https://randomuser.me/api/portraits/thumb/men/58.jpg"
-                },
-    "info2":{
-                    }
-                                   
-}
+                    },
+        "idiomas":[
+            "Ingles B1\n",
+            "Español Nativo"    
+                    ],
+        "habilidades":[
+            "Trabajo en equipo",
+            "Iniciativa",
+            "Resolución de problemas",
+            "Comunicación efectiva"
+                        ],
+        "aptitudes":[
+            "Programación con JavaScript, CSS, HTML, C# y SQL.",
+            "Conosimientos en Photoshop.",
+            "Manejo de MySQL, MariaDB.",
+            "Desarrollo de aplicaciones móviles.",
+            "Maquetación CSS."
+                        ],
+        "cursos":   [
+            "Programación avanzada en JavaScript (200 horas)-Edx"
+                        ]          
+            },
+            "datos_carrera":
+            {
+                "resumen":"Programador web con más de 5 años de trayectoria desarrolladas en eCommerce. A lo largo de estos años, he tenido el privilegio de formar parte en la creación webs como geekletics.es y peternappi.es, las cuales han cultivado un gran éxito, tanto en tráfico como en conversaciones.",
+                "experiencia":[
+
+                                ]
+            }
 
 }
                     
