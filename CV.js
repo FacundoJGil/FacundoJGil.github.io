@@ -1,7 +1,25 @@
+async function foo() {
+    const res = await fetch('CV.json')
+    const obj = await res.json();
+    return obj;
+  }
+
+    foo().then(data => {
+    document.getElementById("nombre").innerHTML=data.datos_personales.nombre +" "+ data.datos_personales.apellido;
+  });
+ 
+
+/*var info;
+
 fetch('CV.json')
     .then(response => response.json())
-    .then(data => {
-        document.getElementById("nombre").innerHTML=data.nombre;  
-        });
+   // .then(data => {const informacion=data});
+    .then(data => {info=data;})
+    .then(()=>{console.log(info);})
+    .then(()=>document.getElementById("nombre").innerHTML=info.nombre);
 
-//document.getElementById("nombre").innerHTML=nombre;
+
+//const obj = JSON.parse(informacion);
+      console.log(info);
+//document.getElementById("nombre").innerHTML=info.nombre;*/
+
