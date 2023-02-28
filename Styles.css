@@ -1,5 +1,7 @@
 *{
-    font-style: inherit;
+    font-family: sans-serif;
+
+    
 }
 
 #contenido{
@@ -11,11 +13,12 @@ display: block;
 float:right;
 width: 78%;
 margin-block: auto;
+font-size:large;
+
 }
 
-#info_personal_ul2{
-    
-
+#info_carrera_ul1{
+ 
 }
 
 .linea{
@@ -25,8 +28,12 @@ margin-block: auto;
     display:block;
 
 }
+
 .linea_texto{
+    text-decoration:underline;
+    text-decoration-color: rgb(61, 61, 30);
     text-decoration-style:solid;
+    text-decoration-thickness:3px;
     text-transform: uppercase;
     font-weight:bold;
     padding: 5px;
@@ -39,6 +46,7 @@ h1{
     text-align:left;
     margin-block: auto;
     margin-left: 20%;
+    
 }
 
 img{

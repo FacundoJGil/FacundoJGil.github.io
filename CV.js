@@ -51,6 +51,10 @@ async function foo() {
         (data.datos_personales.cursos).forEach(post => {document.getElementById("info_personal_ul5").insertAdjacentHTML('beforeend',`<li  class="info_personal">${post}</li>`)});
         });
 
+
+
+        
+
         document.getElementById("nombre").insertAdjacentHTML('afterend',`<p  class="info_personal linea_texto">Resumen Profesional</p>`);
 
         foo().then(data => {
