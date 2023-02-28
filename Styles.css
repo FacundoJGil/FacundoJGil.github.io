@@ -90,6 +90,15 @@
     .info_carrera_li{
     margin-left: 10%;
     }
+button{
+background-color: #333;
+color: aquamarine;
+border-radius: 5px;
+
+}
+
+
+
  }
 
 
@@ -185,4 +194,14 @@ position: absolute;
 top: 0;
 float: left;
 
-}}
+}
+button{
+    background-color: #333;
+    color: aquamarine;
+    border-radius: 5px;
+    
+    }
+
+
+
+}
