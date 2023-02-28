@@ -19,10 +19,18 @@ margin-block: auto;
 }
 
 .linea{
-    text-decoration: overline;
-    text-decoration-color: red;
+    content: '';
+    height: 1px;
+    background: black; 
+    display:block;
+
+}
+.linea_texto{
     text-decoration-style:solid;
     text-transform: uppercase;
+    font-weight:bold;
+    padding: 5px;
+    padding-left: 10px;
 }
 
 h1{
@@ -50,9 +58,9 @@ margin-bottom: 5px;
 }
 
 #info_personal{
-background-color: lightblue;
-border: solid 10px lightblue;
-color: black; 
+background-color:  rgb(58, 110, 128);;
+border: solid 10px rgb(58, 110, 128);
+color: white; 
 left: 0;
 font-weight: bold;
 height: 100%;
