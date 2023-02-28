@@ -1,7 +1,96 @@
+@media only screen and (max-width: 800px) {
+    *{
+     font-size: 5px;
+     word-wrap: break-word;
+    box-sizing: border-box;
+   }
+   ul{
+    padding-left: 10px;
+   }
+   #contenido{
+    margin-left: auto;
+    background-color: white;
+    justify-content:space-around;
+    text-align: left;
+    display: block;
+    float:right;
+    width: 75%;
+    margin-block: auto;
+    font-size:large;
+    }
+    
+    
+    
+    .linea{
+        content: '';
+        height: 1px;
+        background: black; 
+        display:block;
+    
+    }
+    
+    .linea_texto{
+        text-decoration:underline;
+        text-decoration-color: rgb(61, 61, 30);
+        text-decoration-style:solid;
+        text-decoration-thickness:1px;
+        text-transform: uppercase;
+        font-weight:bold;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    
+    h1{
+        color: blue;
+        font-size: larger;
+        text-align:left;
+        margin-block: auto;
+        margin-left: 20%;
+        
+    }
+    
+    img{
+        border-radius: 50%;
+        height: 25%; 
+        width: 60%;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .info_personal{
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+    
+    #info_personal{
+    background-color:  rgb(58, 110, 128);;
+    
+    color: white; 
+    left: 0;
+    font-weight: bold;
+    height: auto;
+    width: 25%;
+    text-align: left;
+    margin-block-end: auto;
+    position: absolute;
+    top: 0;
+    float: left;
+    
+    }
+ }
+
+
+
+
+ @media only screen and (min-width: 600px) {
+
 *{
     font-family: sans-serif;
-
-    
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 #contenido{
@@ -11,15 +100,12 @@ justify-content:space-around;
 text-align: left;
 display: block;
 float:right;
-width: 78%;
+width: 75%;
 margin-block: auto;
 font-size:large;
-
 }
 
-#info_carrera_ul1{
- 
-}
+
 
 .linea{
     content: '';
@@ -67,15 +153,16 @@ margin-bottom: 5px;
 
 #info_personal{
 background-color:  rgb(58, 110, 128);;
-border: solid 10px rgb(58, 110, 128);
+
 color: white; 
 left: 0;
 font-weight: bold;
-height: 100%;
-width: 20%;
+height: auto;
+width: 25%;
 text-align: left;
 margin-block-end: auto;
 position: absolute;
 top: 0;
+float: left;
 
-}
+}}
